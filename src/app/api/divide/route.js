@@ -4,6 +4,7 @@ export async function GET(request) {
   const b = searchParams.get('y');
 
   const c = searchParams.get('c');
+  // new commit
   if (c) {
     throw new Error("This is a new error for c")
     return;
