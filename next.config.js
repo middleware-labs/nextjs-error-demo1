@@ -12,7 +12,6 @@ const nextConfig = {
         "2.0.0", // Application verison
         ".next/", // By default path of next.js where sourcemap resides.
         ".next/", // Base path where your sourcemap will reside after upload.
-        // "https://kbuin.beta.env.middleware.io/api/v1/rum/getSasUrl", // Endpoint to upload sourcemaps.
       )
     );
 
