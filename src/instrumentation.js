@@ -4,7 +4,7 @@ function register() {
   
     tracker.track({
         serviceName: "wrkm-nextjs",
-        accessToken: "xusuusalpvush63ud7zcg8bi3mauuptds528",
+        // accessToken: "xusuusalpvush63ud7zcg8bi3mauuptds528",
         enableExceptionHandling: true, // Enable advanced exception handling
     });
 }
