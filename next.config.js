@@ -4,6 +4,7 @@ const MiddlewareWebpackPlugin =
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
   productionBrowserSourceMaps: true, // for client side
   webpack: (config, { isServer }) => {
     config.plugins.push(
